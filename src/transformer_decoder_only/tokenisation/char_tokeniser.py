@@ -332,7 +332,7 @@ class CharTokeniser:
                     f"Token id {token_id!r} is not in the tokeniser vocabulary."
                 )
             
-            characters.append(self.itos[list])
+            characters.append(self.itos[token_id])
 
         return "".join(characters)
     
