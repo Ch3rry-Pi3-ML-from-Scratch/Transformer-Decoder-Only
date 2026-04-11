@@ -80,7 +80,7 @@ from transformer_decoder_only.attention.causal_mask import (
 from transformer_decoder_only.config.default import ModelConfig
 from transformer_decoder_only.utils.shapes import assert_last_dim, assert_rank, format_shape
 
-class SelfAttention(nn.Module):
+class SelfAttentionHead(nn.Module):
     """
     One causal self-attention head.
 
