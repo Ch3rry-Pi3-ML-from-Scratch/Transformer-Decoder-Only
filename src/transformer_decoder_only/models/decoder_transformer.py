@@ -274,6 +274,21 @@ class DecoderOnlyTransformer(nn.Module):
             bias=config.use_bias,
         )
 
+        # Output projection
+        #   - Maps each final hidden vector into one score per vocabulary item.
+        #
+        #       (B, T, C) -> (B, T, V)
+        #
+        #   - In plain language:
+        #
+        #       for every token position, produce a score for every possible
+        #       next token.
+        self.output_projection = nn.Linear(
+            in_features=self.embedding_dim,
+            out_features=self.vocab_size,
+            bias=config.use_bias,
+        )
+
     def forward(self, token_ids: Tensor) -> Tensor:
         """
         Run the full decoder-only transformer forward pass.
@@ -400,7 +415,7 @@ class DecoderOnlyTransformer(nn.Module):
         # Project final hidden states to vocabulary logits
         #   - For each position, this produces one score for every possible token in
         #     the vocabulary.
-        logits = self.out_projection(hidden_states)
+        logits = self.output_projection(hidden_states)
 
         expected_shape = (token_ids.shape[0], sequence_length, self.vocab_size)
 

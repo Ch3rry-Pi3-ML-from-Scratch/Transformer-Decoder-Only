@@ -211,7 +211,7 @@ class TokenEmbedding(nn.Module):
             - a positive embedding dimension
         """
 
-        super.__init__()
+        super().__init__()
 
         if not isinstance(config, ModelConfig):
             raise TypeError("config must be an instance of ModelConfig.")
