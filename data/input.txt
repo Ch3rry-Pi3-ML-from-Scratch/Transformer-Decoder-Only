@@ -1,0 +1,483 @@
+ACT I
+
+SAGE:
+The lamp is low, yet still the page is bright.
+
+APPRENTICE:
+Then let me read until the morning comes.
+
+SAGE:
+Read slowly. A small sign may hide a rule.
+
+APPRENTICE:
+I see the marks, but not the path between.
+
+SAGE:
+The path is made by walking line by line.
+
+APPRENTICE:
+And if I lose the thread before the end?
+
+SAGE:
+Return to what is known, and start again.
+
+SCRIBE:
+The ink is dry, the margin waits for notes.
+
+APPRENTICE:
+Write this: a model learns by many tries.
+
+SAGE:
+Write also this: a guess must meet a loss.
+
+SCRIBE:
+I write it plain, so no one misses it.
+
+APPRENTICE:
+What is a token, when the text is small?
+
+SAGE:
+A token here is but a single sign.
+
+APPRENTICE:
+One letter walks alone into the net?
+
+SAGE:
+Alone at first, then joined with place and time.
+
+SCRIBE:
+The first lesson is counted in the dark.
+
+APPRENTICE:
+Then every letter needs a little home.
+
+SAGE:
+The table gives each letter such a home.
+
+APPRENTICE:
+And every place receives a second mark?
+
+SAGE:
+Yes. Order matters. Night is not thing.
+
+APPRENTICE:
+You mean that "star" and "rats" are not the same.
+
+SAGE:
+The letters match, but meaning turns around.
+
+SCRIBE:
+I mark this down beside the candle flame.
+
+ACT II
+
+CARTOGRAPHER:
+Bring me the map with rivers still unnamed.
+
+RUNNER:
+The map is torn, but all the roads remain.
+
+CARTOGRAPHER:
+Then we shall trace the roads from town to town.
+
+RUNNER:
+May every town look forward down the road?
+
+CARTOGRAPHER:
+No. Each town sees the towns already passed.
+
+RUNNER:
+Why must the future stay behind a veil?
+
+CARTOGRAPHER:
+Because the game is guessing what comes next.
+
+RUNNER:
+If I could see the next town, I would cheat.
+
+CARTOGRAPHER:
+So we draw masks across the future road.
+
+SCRIBE:
+The mask is lower triangular and true.
+
+RUNNER:
+I do not love that phrase, but hear its shape.
+
+CARTOGRAPHER:
+At step one, look only at step one.
+
+RUNNER:
+At step two, look at one and two together.
+
+CARTOGRAPHER:
+At step three, look at one and two and three.
+
+RUNNER:
+The pattern grows, but never looks ahead.
+
+CARTOGRAPHER:
+Now you have seen the law of causal sight.
+
+SAGE:
+A law of sight becomes a law of scores.
+
+APPRENTICE:
+The scores are changed before the softmax comes.
+
+SAGE:
+The hidden future falls to minus night.
+
+SCRIBE:
+And zero chance is born from endless cold.
+
+ACT III
+
+APPRENTICE:
+What does attention seek inside a line?
+
+SAGE:
+It asks three questions with three learned doors.
+
+APPRENTICE:
+What am I seeking? What do others hold?
+
+SAGE:
+And what should they return if I attend?
+
+APPRENTICE:
+These are the queries, keys, and values then.
+
+SAGE:
+Yes. Query meets a key and forms a score.
+
+APPRENTICE:
+The score is scaled before it grows too sharp.
+
+SAGE:
+Divide by root of width, and keep it calm.
+
+APPRENTICE:
+Then mask the future, soften what remains.
+
+SAGE:
+Then use the weights to blend the values in.
+
+SCRIBE:
+I write the shapes to hold the thought in place.
+
+SAGE:
+Batch, time, and channel march in order here.
+
+APPRENTICE:
+The head returns a thinner hidden stream.
+
+SAGE:
+Many heads return, and then their streams are joined.
+
+APPRENTICE:
+Joined side by side, not added into one.
+
+SAGE:
+Then one projection mixes all their views.
+
+SCRIBE:
+The shape returns, so residuals can pass.
+
+APPRENTICE:
+The old stream plus the new stream moves ahead.
+
+SAGE:
+That is the bridge across the depth of blocks.
+
+ACT IV
+
+BUILDER:
+I have a block with two clear chambers built.
+
+INSPECTOR:
+Name them, so the work can be reviewed.
+
+BUILDER:
+First comes attention, wrapped in normal form.
+
+INSPECTOR:
+And after that?
+
+BUILDER:
+The feed-forward room.
+
+INSPECTOR:
+Does every room preserve the outer shape?
+
+BUILDER:
+It must, or else the skip path cannot meet.
+
+INSPECTOR:
+Show me the order of the moving stream.
+
+BUILDER:
+Normalise, attend, then add the old.
+
+INSPECTOR:
+And then?
+
+BUILDER:
+Normalise, transform, then add again.
+
+APPRENTICE:
+The network widens, bends, and narrows back.
+
+SAGE:
+Four times the width is common for that room.
+
+SCRIBE:
+The block is small, but can be stacked in rows.
+
+BUILDER:
+One block remembers little by itself.
+
+INSPECTOR:
+Two blocks may find a pattern in the smoke.
+
+BUILDER:
+More blocks may learn, but training costs us time.
+
+SAGE:
+Begin with two, and let the loss report.
+
+APPRENTICE:
+So judgement comes from numbers, not from hope.
+
+SAGE:
+From numbers first, and samples second after.
+
+ACT V
+
+TRAINER:
+Bring forth the corpus and divide the stream.
+
+APPRENTICE:
+How much is held aside for validation?
+
+TRAINER:
+A tenth is kept to test what was not trained.
+
+APPRENTICE:
+The rest becomes the ground for many steps.
+
+TRAINER:
+Each window has an input and a target.
+
+APPRENTICE:
+The target is the input shifted left.
+
+TRAINER:
+Yes. Every place predicts the next small sign.
+
+APPRENTICE:
+The model speaks in logits, not in words.
+
+TRAINER:
+The loss will shape those logits into skill.
+
+APPRENTICE:
+We flatten batch and time before the loss.
+
+TRAINER:
+Then cross entropy compares each row.
+
+SAGE:
+Clear gradients first, then let the backward pass.
+
+TRAINER:
+Then AdamW will nudge the weights along.
+
+APPRENTICE:
+How will I know the learning has begun?
+
+TRAINER:
+The training loss should fall across the steps.
+
+SAGE:
+The validation loss must also be watched.
+
+SCRIBE:
+A falling train loss alone may flatter us.
+
+APPRENTICE:
+If validation rises, the model memorises.
+
+TRAINER:
+Then train less, shrink the net, or gather text.
+
+ACT VI
+
+ORACLE:
+Give me a prompt, and I will ask the model.
+
+APPRENTICE:
+The prompt is short: SAGE:
+
+ORACLE:
+The model sees only ids, not names.
+
+APPRENTICE:
+Yet names become ids through the token table.
+
+ORACLE:
+The current context enters as a row.
+
+APPRENTICE:
+The logits return for every position there.
+
+ORACLE:
+But only the final position chooses next.
+
+APPRENTICE:
+Why not use all positions at generation time?
+
+ORACLE:
+The earlier positions predict earlier futures.
+
+APPRENTICE:
+Only the last one stands before the unknown.
+
+ORACLE:
+Exactly. Take its scores across the vocab.
+
+APPRENTICE:
+Temperature may sharpen or soften them.
+
+ORACLE:
+Then sample one sign, or choose the greatest score.
+
+APPRENTICE:
+Append the sign and call the model again.
+
+ORACLE:
+One token at a time, the line is made.
+
+SCRIBE:
+The machine writes slowly, but the loop is simple.
+
+SAGE:
+Slow loops teach more than hidden magic does.
+
+APPRENTICE:
+Then let the first strange sample be enough.
+
+SAGE:
+Enough to learn, and not enough to boast.
+
+ACT VII
+
+NIGHT WATCH:
+The square is quiet, and the bell is late.
+
+LAMP KEEPER:
+Still I can hear the scratching of the pen.
+
+NIGHT WATCH:
+What do they build beyond the library door?
+
+LAMP KEEPER:
+A little engine made of numbered words.
+
+NIGHT WATCH:
+Will it know the moon?
+
+LAMP KEEPER:
+It will know the letters.
+
+NIGHT WATCH:
+Will it know the city?
+
+LAMP KEEPER:
+It will know the patterns.
+
+NIGHT WATCH:
+Will it know the heart?
+
+LAMP KEEPER:
+Not yet. It learns the next mark first.
+
+SAGE:
+Do not ask a small model for a soul.
+
+APPRENTICE:
+Ask it instead to show the shape it learned.
+
+SCRIBE:
+In repeated names, it finds repeated turns.
+
+APPRENTICE:
+In line breaks, it finds the breath of speech.
+
+SAGE:
+In punctuation, it finds a little rhythm.
+
+NIGHT WATCH:
+Then even small text has a pattern hidden.
+
+LAMP KEEPER:
+All ordered things invite prediction.
+
+ACT VIII
+
+APPRENTICE:
+I trained the model through a hundred steps.
+
+SAGE:
+What did the loss reveal?
+
+APPRENTICE:
+It fell, then shook, then fell a little more.
+
+SAGE:
+That is the common weather of first runs.
+
+APPRENTICE:
+The sample speaks in broken stage directions.
+
+SAGE:
+Good. Broken structure is structure still.
+
+APPRENTICE:
+It learned that speakers end with colons.
+
+SAGE:
+It learned that lines are short and often paired.
+
+APPRENTICE:
+It learned some words, but loses longer thought.
+
+SAGE:
+A tiny model with tiny data will do that.
+
+TRAINER:
+Increase the text before increasing pride.
+
+SCRIBE:
+Increase tests before increasing tricks.
+
+ORACLE:
+Increase patience before increasing scale.
+
+APPRENTICE:
+Then the next step is plain enough to see.
+
+SAGE:
+Fill the corpus, train the loop, inspect the sample.
+
+APPRENTICE:
+Then change one thing and measure what it means.
+
+SAGE:
+That is experiment. That is the work.
+
+SCRIBE:
+I close the page, but leave the lamp alight.
+
+APPRENTICE:
+Tomorrow I will ask the model again.
